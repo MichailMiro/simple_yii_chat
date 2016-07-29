@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-md-3">
                 <div class="panel panel-success">
-                    <div class="panel-heading">Users </div>
+                    <div class="panel-heading">Users</div>
                     <div class="panel-body">
                         <?php if (!empty($users)) { ?>
                             <?php foreach ($users as $one) { ?>
@@ -12,7 +12,7 @@
                                        data-value="<?= $one->id ?>"><?= $one->name ?></a>
                                 </p>
                             <?php } ?>
-                        <?php } else { ?>
+                        <?php } else{ ?>
                             You are the first
                         <?php } ?>
                     </div>
