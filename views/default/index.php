@@ -25,7 +25,7 @@
                         <?php if (!empty($chats)) { ?>
 
                         <?php } else { ?>
-                            You don't have any chat
+                            You don't have any chat.
                         <?php } ?>
                     </div>
                 </div>
