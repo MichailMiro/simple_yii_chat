@@ -12,7 +12,7 @@
                                        data-value="<?= $one->id ?>"><?= $one->name ?></a>
                                 </p>
                             <?php } ?>
-                        <?php } else{ ?>
+                        <?php } else { ?>
                             You are the first
                         <?php } ?>
                     </div>
