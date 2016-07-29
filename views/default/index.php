@@ -8,8 +8,8 @@
                         <?php if (!empty($users)) { ?>
                             <?php foreach ($users as $one) { ?>
                                 <p>
-                                    <a href="#" class="open-chat btn btn-default" data-value="<?= $one->id ?>"
-                                       ><?= $one->name ?></a>
+                                    <a href="#" class="open-chat btn btn-default"
+                                       data-value="<?= $one->id ?>"><?= $one->name ?></a>
                                 </p>
                             <?php } ?>
                         <?php } else { ?>
